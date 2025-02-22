@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Breaking News: AI Takes Over!",
+      "category": "Technology",
+      "image": "ai.jpeg",
+      "excerpt": "AI is revolutionizing industries at an unprecedented pace.",
+      "content": "Full article content here..."
+    },
+    {
+      "id": 2,
+      "title": "The Future of Space Travel",
+      "category": "Science",
+      "image": "space.jpg",
+      "excerpt": "SpaceX plans to colonize Mars by 2050. Here’s how.",
+      "content": "Full article content here..."
+    }
+  ]
+  

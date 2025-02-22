@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Blog</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>📢 Magazine Blog</h1>
+    </header>
+
+    <main>
+        <div class="blog-grid">
+            <% posts.forEach(post => { %>
+                <div class="blog-card">
+                    <img src="/images/<%= post.image %>" alt="<%= post.title %>">
+                    <div class="blog-content">
+                        <h2><a href="/post?id=<%= post.id %>"><%= post.title %></a></h2>
+                        <p><strong>Category:</strong> <%= post.category %></p>
+                        <p><%= post.excerpt %></p>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </main>
+</body>
+</html>
